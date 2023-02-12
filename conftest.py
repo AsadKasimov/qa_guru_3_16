@@ -35,7 +35,7 @@ def open_browser():
 
     browser.config.window_width = 300
     browser.config.window_height = 700
-    browser.config.base_url = 'https://demoqa.com'
+
     yield
 
     attach.add_html(browser)
