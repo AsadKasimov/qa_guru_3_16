@@ -1,5 +1,5 @@
 
-# Пример организации автотестирования для образовательной платформы <a target="_blank" href="https://stepik.org/">Stepik</a>
+# Пример организации автотестирования для образовательной платформы look.online
 
 ## :open_book: Содержание:
 - [Описание проекта](#heavy_check_mark-описание)
@@ -48,18 +48,20 @@
 
 ## :gear: Технологии и инструменты:
 
-<div align="center">
-  <img src="https://github.com/Yunaika/yunaika/blob/main/img/logos/python.webp" title="Python" alt="Python" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/Yunaika/yunaika/blob/main/img/logos/pytest.png" title="Pytest" alt="Pytest" width="45" height="45"/>&nbsp; 
-  <img src="https://github.com/Yunaika/yunaika/blob/main/img/logos/selenium-original.svg" title="Selenium" alt="Selenium" width="40" height="40"/>&nbsp;  
-  <img src="https://github.com/Yunaika/yunaika/blob/main/img/logos/selene.png" title="Selene" alt="Selene" width="50" height="50"/>&nbsp;
-  <img src="https://github.com/Yunaika/yunaika/blob/main/img/logos/selenoid.png" title="Selenoid" alt="Selenoid" width="40" height="40"/>&nbsp;  
-  <img src="https://github.com/Yunaika/yunaika/blob/main/img/logos/pycharm.png" title="PyCharm" alt="PyCharm" width="40" height="40"/>&nbsp;    
-  <img src="https://github.com/Yunaika/yunaika/blob/main/img/logos/jenkins.png" title="Jenkins" alt="Jenkins" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/Yunaika/yunaika/blob/main/img/logos/Allure.svg" title="Allure Report" alt="Allure Report" width="40" height="40"/>&nbsp;
-  <img src="https://fs.getcourse.ru/fileservice/file/download/a/159627/sc/333/h/32108dd5b6c9c9c3cf4220fe6b2cc7fc.svg" title="Allure TestOps" alt="Allure TestOps" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/Yunaika/yunaika/blob/main/img/logos/telegram.png" title="Telegram" alt="Telegram" width="40" height="40"/>&nbsp;
-</div>
+<p  align="center">
+  <code><img width="5%" title="Python" src="https://github.com/GithubRedMouth/kasimov/blob/main/images/icons/Python-logo-notext.svg"></code>
+  <code><img width="5%" title="PyCharm" src="https://github.com/GithubRedMouth/kasimov/blob/main/images/icons/pycharm.svg"></code>
+  <code><img width="6%" title="PyCharm" src="https://github.com/GithubRedMouth/kasimov/blob/main/images/icons/pytest.png"></code>
+  <code><img width="6%" title="PyCharm" src="https://github.com/GithubRedMouth/kasimov/blob/main/images/icons/selene.png"></code>
+  <code><img width="5%" title="Allure Report" src="https://github.com/GithubRedMouth/kasimov/blob/main/images/icons/allure-Report-logo.svg"></code>
+  <code><img width="5%" title="Allure TestOps" src="https://github.com/GithubRedMouth/kasimov/blob/main/images/icons/allure-ee-logo.svg"></code>
+  <code><img width="5%" title="Github" src="https://github.com/GithubRedMouth/kasimov/blob/main/images/icons/git-logo.svg"></code>
+  <code><img width="5%" title="Jenkins" src="https://github.com/GithubRedMouth/kasimov/blob/main/images/icons/jenkins-logo.svg"></code>
+  <code><img width="5%" title="Jira" src="https://github.com/GithubRedMouth/kasimov/blob/main/images/icons/jira-logo.svg"></code>
+  <code><img width="5%" title="Selenoid" src="https://github.com/GithubRedMouth/kasimov/blob/main/images/icons/selenoid-logo.svg"></code>
+  <code><img width="5%" title="Telegram" src="https://github.com/GithubRedMouth/kasimov/blob/main/images/icons/Telegram.svg"></code>
+
+</p>
 
 ## :heavy_check_mark: Реализованные UI-проверки
 
