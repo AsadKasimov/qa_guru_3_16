@@ -10,7 +10,6 @@
   - [API](#heavy_check_mark-реализованные-api-проверки)
 - Запуск тестов:
   - [Jenkins](#-запуск-тестов-из-jenkins)
-  - [Локально](#computer-локальный-запуск)
 - Отчеты:
   - [Allure](#bar_chart-отчеты-о-прохождении-тестов-доступны-в-allure)
   - [Telegram](#-telegram)
@@ -87,67 +86,30 @@
 >   - несуществующего пользователя;
 > - изменение имени зарегистрированным пользователем.
 
-## <img width="4%" title="Jenkins" src="https://github.com/Yunaika/yunaika/blob/main/img/logos/jenkins.png"> Запуск тестов из [Jenkins](https://jenkins.autotests.cloud/job/juliamur_python_autotests_stepik_diplom/)
+## <img width="4%" title="Jenkins" src=""> Запуск тестов из [Jenkins](https://jenkins.autotests.cloud/job/003_python-edbeg1337-unit16/)
 
-Для запуска тестов из Jenkins:
-1. Нажмите кнопку "Собрать с параметрами"
-
-<p><img src="media/screenshots/jenkins_1.jpg" alt="Jenkins"/></p>
-
-2. Выберите параметры
-
-<p><img src="media/screenshots/jenkins_2.jpg" alt="Jenkins"/></p>
-
-3. Нажмите "Собрать"
-
-## :computer: Локальный запуск 
-
-1. Склонируйте репозиторий
-2. Установите Poetry `poetry install`
-3. Откройте проект в PyCharm, установите интерпретатор
-4. Создайте `.env` файл по образцу в папке проекта
-5. Запустите тесты в PyCharm или в командной строке (не забудьте подставить нужные параметры):
-```bash
-pytest --browser_name={BROWSER_NAME} --browser_version={BROWSER_VERSION} --alluredir allure-results/
-```
-
-### :heavy_plus_sign: Параметры сборки
-
-> - BROWSER_NAME — браузер _(Chrome, Firefox)_, по умолчанию Chrome
-> - BROWSER_VERSION — версия браузера _(chrome: 100.0, 99.0; firefox: 98.0, 97.0)_, по умолчанию 100.0
 
 ## :bar_chart: Отчеты о прохождении тестов доступны в Allure
 
-> При локальном запуске введите в командной строке: 
-```bash
-allure serve .\allure-results
-```
 
-### <img width="3%" title="Allure" src="https://github.com/Yunaika/yunaika/blob/main/img/logos/Allure.svg"> Allure
+### <code><img width="5%" title="Allure Report" src="./images/icons/allure-Report-logo.svg"></code>
 
 #### Примеры отображения тестов
 
-<img src="media/screenshots/allure_reports_1.jpg" alt="Allure"/>
 
-<img src="media/screenshots/allure_reports_2.jpg" alt="Allure"/>
 
-### <img width="2.5%" title="Telegram" src="https://github.com/Yunaika/yunaika/blob/main/img/logos/telegram.png"> Telegram
+### <code><img width="5%" title="Telegram" src="./images/icons/Telegram.svg"></code> Telegram
 
 Настроена отправка отчета в Telegram
 
 <img src="media/screenshots/telegram.jpg" alt="Telegram"/>
 
-### :email: Email
-
-Настроена отправка отчета на электронную почту
-
-<img src="media/screenshots/email.jpg" alt="Email"/>
 
 ## :briefcase: Проект интегрирован с Allure TestOps 
 
 #### Автоматически собраны тест-кейсы
 
-<img src="media/screenshots/allure_testops.jpg" alt="Allure TestOps"/>
+<code><img width="5%" title="Allure TestOps" src="./images/icons/allure-ee-logo.svg"></code>
 
 #### Представлены дашборды аналитики
 
