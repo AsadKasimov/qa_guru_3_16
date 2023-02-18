@@ -45,7 +45,7 @@ Java Gradle IntelliJ IDEA Selenide Selenoid JUnit5 Jenkins Allure Report Allure 
 
 
 # Полная статистика по прохождению тестпланов, отчёты и приложения к ним хранятся в Allure TestOps
-> <a target="_blank" href="https://allure.autotests.cloud/project/804">Сссылка на проект в AllureTestOps</a> (запрос доступа admin@qa.guru)
+> <a target="_blank" href="https://allure.autotests.cloud/project/1864/">Сссылка на проект в AllureTestOps</a> (запрос доступа admin@qa.guru)
 
 ### Кейсы тест-плана выполнения ручного тестирования
 ![This is an image](/design/images/manual.png)
